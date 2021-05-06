@@ -17,6 +17,9 @@ eureka:
       defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/
     register-with-eureka: true
     fetch-registry: true
+  instance:
+    instance-id: payment8002
+    prefer-ip-address: true
 
 
 mybatis:
